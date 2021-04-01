@@ -1,0 +1,172 @@
+body {
+    font: 15px arial, sans-serif;
+    background-color: #d9d9d9;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#bodybox {
+    margin: auto;
+    max-width: 550px;
+    height: 700px;
+    font: 15px arial, sans-serif;
+    background-color: rgb(63, 56, 95);
+    border-style: solid;
+    border-width: 1px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 15px;
+}
+
+#content {
+    /* border-style: solid; */
+    background-color: #e6e6e6;
+    border-radius: 15px;
+    height: 520px;
+    margin-top: 1em;
+    overflow: auto;
+}
+
+.chatlog {
+    font: 15px arial, sans-serif;
+    background-color: lightgreen;
+    padding: 1em 2em;
+    margin: 2em;
+    border-radius: 10px;
+    /* width: fit-content; */
+    text-align: right;
+}
+
+#chatbox {
+    border-radius: 10px;
+}
+
+.card-footer {
+    width: inherit;
+}
+
+.botlog {
+    color: white;
+    background-color: rgb(63, 122, 248);
+    padding: 1em 2em;
+    margin: 2em;
+    border-radius: 10px;
+    /* width: fit-content; */
+}
+
+h1 {
+    margin: auto;
+}
+
+pre {
+    background-color: #f0f0f0;
+    margin-left: 20px;
+}
+
+.card-footer {
+    border-radius: 0 0 15px 15px !important;
+    border-top: 0 !important;
+}
+
+.type_msg {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    border: 0 !important;
+    color: white !important;
+    height: 60px !important;
+    overflow-y: auto;
+}
+
+.type_msg:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
+}
+
+.send_btn {
+    border-radius: 0 15px 15px 0 !important;
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    border: 0 !important;
+    color: white !important;
+    cursor: pointer;
+}
+
+.online_icon {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color: #4cd137;
+    border-radius: 50%;
+    bottom: 0.2em;
+    right: 0.4em;
+    border: 1.5px solid white;
+}
+
+.offline {
+    background-color: #c23616 !important;
+}
+
+.img_cont {
+    position: relative;
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+}
+
+.user_img {
+    height: 70px;
+    width: 70px;
+    border: 3px solid #62a9fa;
+    margin-bottom: 1.2em;
+}
+
+.user_img_msg {
+    height: 40px;
+    width: 40px;
+    border: 3px solid #62a9fa;
+}
+
+.msg_card_body {
+    overflow-y: auto;
+}
+
+.msg_cotainer {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    border-radius: 25px;
+    background-color: #82ccdd;
+    padding: 10px;
+    position: relative;
+}
+
+.msg_cotainer_send {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10px;
+    border-radius: 25px;
+    background-color: #78e08f;
+    padding: 10px;
+    position: relative;
+}
+
+.user_info {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 15px;
+    display: inline-block;
+}
+
+.user_info span {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(255, 255, 255);
+}
+
+.user_info p {
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.6);
+}
