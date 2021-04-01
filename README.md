@@ -20,3 +20,8 @@ Travel based Chatbot which allows users to book flight, cab or hotel and gives a
 5. Add `PORT=3000` and `MONGODB_URL=mongodb://127.0.0.1:27017/chatbot` in ".env" file.
 6. Run `npm start`
 
+### Overview of Frontend
+
+
+<img src="/public/img/Output1.png">
+<img src="/public/img/Output2.png">
