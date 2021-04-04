@@ -1,6 +1,6 @@
 # TravelBot
 
-Travel based Chatbot which allows users to book flight, cab or hotel and gives a hasslefree user experience.
+Static Version of Travel based Chatbot which allows users to book flight, cab or hotel.
 
 ### Tech Stack:
 <ol>
